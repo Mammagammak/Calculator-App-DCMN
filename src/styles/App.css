@@ -1,0 +1,180 @@
+body {
+    background-color: #D0CBB4;
+    font-family: sans-serif;
+    line-height: 1.5rem;
+  }
+
+  
+  .calculator {
+    width: 25%;
+    margin: 2em auto; }
+  
+  .row__display {
+    width: 100%;
+  }
+  
+  .row__display div:first-of-type {
+    height: 1em;
+    width: 100%;
+    background-color: #f5f1f8;
+    color: #212f45;
+    font-size: 4em;
+    padding: 0.5em 0.75em;
+    text-align: right;
+    border-radius: 3px;
+    border: 1px solid #07000c;
+    box-shadow: 5px 5px 5px #808080;
+    margin-bottom: 12px;
+  }
+
+  .row__display div:nth-of-type(2) {
+    height: 1.5em;
+    width: 100%;
+    background-color: #212f45;
+    color: #D0CBB4;
+    font-size: 1.25em;
+    padding: 1em 0.5em 1.25em 0.5em;
+    text-align: center;
+    border-radius: 3px;
+    border: 2px solid #D0CBB4;
+    box-shadow: 5px 5px 5px #808080;
+    margin-bottom: 5px;
+  
+  }
+  
+  .calculator__btns {
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: max-content;
+  }
+  
+  button {
+    width: 4em;
+    height: 4em;
+    border-radius: 5px;
+    font-size: 1.5em;
+    box-shadow: 5px 5px 5px #808080;
+    margin-right: 4px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+
+
+ /* row 1 */
+  .btn__row--1 button {
+    background-color: #212f45;
+    color: #D0CBB4;
+    border: 1px solid #D0CBB4;
+  }
+
+  .btn__row--1 button:hover {
+    background-color: #D0CBB4;
+    color: #212f45;
+}
+
+  .btn__row--1 button:active {
+    background-color: #fff;
+    box-shadow: 0 5px #D0CBB4;
+    transform: translateY(6px);
+    background-image: url(DCMN_Logo_transp.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #212f45;
+  }
+  
+/* row 2 */
+  .btn__row--2 button {
+    background-color: #272640;
+    color: #D0CBB4;
+    border: 1px solid #D0CBB4;
+  }
+  
+  .btn__row--2 button:hover {
+    background-color: #D0CBB4;
+    color: #272640;
+  }
+
+  .btn__row--2 button:active {
+    background-color: #fff;
+    box-shadow: 0 5px #D0CBB4;
+    transform: translateY(6px);
+    background-image: url(DCMN_Logo_transp.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #212f45;
+    text-align: center;
+ }
+
+/* row 3 */
+  .btn__row--3 button {
+    background-color: #312244;
+    color: #D0CBB4;
+    border: 1px solid #D0CBB4;
+  }
+  
+  .btn__row--3 button:hover{
+    background-color: #D0CBB4;
+    color: #312244;
+  }
+
+  .btn__row--3 button:active {
+    background-color: #fff;
+    box-shadow: 0 5px #D0CBB4;
+    transform: translateY(6px);
+    background-image: url(DCMN_Logo_transp.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #212f45;
+    text-align: center;
+  }
+  
+/* row 4 */
+  .btn__row--4 button {
+    background-color: #3e1f47;
+    color: #D0CBB4;
+    border: 1px solid #D0CBB4;
+  }
+  
+  .btn__row--4 button:hover {
+    background-color: #D0CBB4;
+    color: #3e1f47;
+  }
+  
+  .btn__row--4 button:active {
+    background-color: #fff;
+    box-shadow: 0 5px #D0CBB4;
+    transform: translateY(6px);
+    background-image: url(DCMN_Logo_transp.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #212f45;
+    text-align: center;
+  }
+  
+ /* row 5 */ 
+  .btn__row--5 button {
+    background-color: #4d194d;
+    color: #D0CBB4;
+    border: 1px solid #D0CBB4;
+  }
+  
+  .btn__row--5 button:hover {
+    background-color: #D0CBB4;
+    color: #4d194d;
+  }
+
+  .btn__row--5 button:active {
+    background-color: #fff;
+    box-shadow: 0 5px #D0CBB4;
+    transform: translateY(6px);
+    background-image: url(DCMN_Logo_transp.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #212f45;
+    text-align: center;
+  }
+  
+  
+  .btn--equals {
+    width: 49%;
+  }
